@@ -137,6 +137,7 @@
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_audio_set_track.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_audio_set_volume.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_audio_toggle_mute.cs" />
+    <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_get_scale.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_media_player_can_pause.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_media_player_event_manager.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_media_player_get_chapter.cs" />
@@ -199,6 +200,7 @@
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_logo_string.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_marquee_int.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_marquee_string.cs" />
+    <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_scale.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_spu.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_spu_delay.cs" />
     <Compile Include="Signatures\libvlc_media_player.h\libvlc_video_set_teletext.cs" />
@@ -242,6 +244,7 @@
     <Compile Include="VlcManager.GetVideoCropGeometry.cs" />
     <Compile Include="VlcManager.GetVideoLogo.cs" />
     <Compile Include="VlcManager.GetVideoMarquee.cs" />
+    <Compile Include="VlcManager.GetVideoScale.cs" />
     <Compile Include="VlcManager.GetVideoSpu.cs" />
     <Compile Include="VlcManager.GetVideoSpuCount.cs" />
     <Compile Include="VlcManager.GetVideoSpuDelay.cs" />
@@ -307,6 +310,7 @@
     <Compile Include="VlcManager.SetVideoDeinterlace.cs" />
     <Compile Include="VlcManager.SetVideoLogo.cs" />
     <Compile Include="VlcManager.SetVideoMarquee.cs" />
+    <Compile Include="VlcManager.SetVideoScale.cs" />
     <Compile Include="VlcManager.SetVideoSpu.cs" />
     <Compile Include="VlcManager.SetVideoSpuDelay.cs" />
     <Compile Include="VlcManager.SetVideoTeletext.cs" />

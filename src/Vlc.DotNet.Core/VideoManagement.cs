@@ -24,6 +24,12 @@ namespace Vlc.DotNet.Core
             set { myManager.SetVideoCropGeometry(myMediaPlayer, value); }
         }
 
+        public float Scale
+        {
+            get { return myManager.GetVideoScale(myMediaPlayer); }
+            set { myManager.SetVideoScale(myMediaPlayer, value); }
+        }
+
         public string CropGeometry
         {
             get { return myManager.GetVideoCropGeometry(myMediaPlayer);  }
